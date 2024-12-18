@@ -22,25 +22,19 @@ This repository contains a **Jupyter Notebook** that implements a deep learning 
 ## Setup
 
 1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/AlekhyaGudibandla/Breast-Cancer-Prediction-Model.git
+    You can clone the repository directly into your notebook using the following code:
+    ```python
+    !git clone https://github.com/AlekhyaGudibandla/Breast-Cancer-Prediction-Model.git
     ```
 
-2. **Install Dependencies**:
-    Install the necessary Python libraries using:
-    ```bash
-    pip install -r requirements.txt
-    ```
-    Ensure you have **PyTorch** and **Scikit-Learn** installed.
-
-3. **Open the Notebook**:
+2. **Open the Notebook**:
     Navigate to the directory and open the **Jupyter notebook** file:
     ```bash
     jupyter notebook Breast_Cancer_Prediction.ipynb
     ```
 
-4. **Run the Notebook**:
-    Execute the cells in the notebook to train the model and evaluate its performance.
+3. **Run the Notebook**:
+    Execute the cells in the notebook to train the model and evaluate its performance. No need for additional installations as dependencies are pre-configured.
 
 ## Model Overview
 
@@ -58,5 +52,3 @@ This repository contains a **Jupyter Notebook** that implements a deep learning 
 ## Contributing
 
 Feel free to contribute by opening issues or submitting pull requests. Any improvements to the model, evaluation metrics, or documentation are welcome!
-
----
